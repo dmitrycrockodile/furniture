@@ -10,8 +10,7 @@ body {
     font-weight: 400;
     line-height: 2.7rem;
     color: $default;
-    overflow-x: hidden;
-    min-width: 32rem;
+    min-width: 30rem;
 }
 
 .body--lock {
@@ -23,6 +22,8 @@ body {
     flex-direction: column;
     min-height: 100%;
     font-size: 1.6rem;
+    overflow-x: hidden;
+    position: relative;
 }
 
 .main {
